@@ -1,0 +1,98 @@
+
+*, *::before, *::after{
+    box-sizing:border-box ;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    margin: 0;
+    color: #fff;
+    
+}
+
+.container{
+    max-width: 428px;
+    margin: 0 auto;
+    background-color: #313438;
+    min-height: 100vh;          
+    
+}
+
+.hero{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,147,186,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 2em 0;
+    
+
+}
+.back-btn{
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+
+.hero-info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+i{
+    font-size:1.5em ;
+   
+}
+
+.relationship{
+    width: 6em;
+    text-align: center;
+    padding: .4em .5em;
+    border-radius: 100px;
+    border-top-left-radius:0px;
+    background-color: #75a85e;
+    font-size: .8em;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info{
+    padding: 3em 1.5em;
+}
+
+.info-line{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #2a2c30,
+                -20px -20px 60px #383c40;
+
+}
+
+p{
+    margin: 0;
+    padding-left: 2em;
+}
+
+.icon-gradient{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,147,186,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 100px;
+    padding: .5em;
+}
+
+#location{
+    padding: .5em .6em;
+}
+
+.edit-contact{
+    padding: 1.5em 3.5em;
+    text-align: center;
+
+
+}
